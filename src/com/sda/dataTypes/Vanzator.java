@@ -10,4 +10,5 @@ public class Vanzator {
     String getOrez() {
         return orez;
     }
+
 }

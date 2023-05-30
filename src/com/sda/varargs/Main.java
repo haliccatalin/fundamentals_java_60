@@ -19,8 +19,8 @@ public class Main {
             System.out.println(nr);
         }
 
-        String[] dataNames = new String[]{"Test", "Test2", "test3"};
-        main(dataNames);
+//        String[] dataNames = new String[]{"Test", "Test2", "test3"};
+//        main(dataNames);
     }
     // int ... numbers => se pune TOT TIMPUL pe ultimul loc!!!!
     public static void printNumbersWithLocation(String location, int ... numbers) {

@@ -1,5 +1,8 @@
 package com.sda.dataTypes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 //   PRIMITEVE + OBIECTE => CELE 2 CATEGORI DE TIPURI DE DATA
 
@@ -113,6 +116,31 @@ public class Main {
         Vanzator mihaiVanzator = new Vanzator();
         mihaiVanzator.orez ="Orez Boabe Mici";
         mihaiVanzator.getOrez();
+
+        // CLASE WRAPPER
+//        clasele wrapper ne ajuta sa transformam primitivele in obiecte
+//        DE CE?
+//        Colectii de date, Collection (Liste, Seturi, Map, etc) aceste functioneaza doar cu OBIECTE
+
+//        int => Integer
+        Integer number = 100;
+//        boolean => Boolean
+        Boolean trueOrFalse = true;
+//        short => Short
+//        byte => Byte
+//        long => Long
+//        float => Float
+//        double => Double
+//        char => Character
+
+        int[] ageArray = new int[3]; // maxim 3 elemente
+
+        List<Integer> ageList = new ArrayList();
+        ageList.add(1);
+        ageList.add(2);
+        ageList.add(3);
+        ageList.add(4);
+        ageList.add(4);
 
     }
 }
